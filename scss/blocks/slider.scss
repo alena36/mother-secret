@@ -1,0 +1,9 @@
+.slider {
+  display: flex;
+
+  &__item{
+    position: relative;
+    display: flex !important;
+    justify-content: space-between;
+  }
+}

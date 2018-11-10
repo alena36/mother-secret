@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  padding-top: 3.33rem;
+  padding-bottom: 3.33rem;
+  background-color: $base-black;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  //&__contacts {
+  //  position: absolute;
+  //  display: flex;
+  //  top: 100%;
+  //  right: 10%;
+  //  z-index: 1;
+  //}
+
+}

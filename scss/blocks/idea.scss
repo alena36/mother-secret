@@ -1,0 +1,40 @@
+.idea {
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 54px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    color: $base-red;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    font-family: $font-family--Oswald;
+    font-size: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $base-black;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    &--small {
+      font-size: 16px;
+      color: $base-grey;
+    }
+  }
+
+  &__text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__image {
+    margin-left: 3rem;
+  }
+}

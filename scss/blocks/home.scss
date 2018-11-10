@@ -1,0 +1,14 @@
+.home {
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 36px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    color: $base-red;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 3rem;
+  }
+}

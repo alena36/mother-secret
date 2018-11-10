@@ -1,0 +1,39 @@
+.features {
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 30px;
+    color: $base-black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.03em;
+
+    &--red {
+      color: $base-red;
+    }
+  }
+
+  &__subtitle {
+    font-family: $font-family--Oswald;
+    font-size: 26px;
+    color: $base-black;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.03em;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-family: $font-family--Oswald;
+    font-size: 18px;
+    text-align: center;
+    color: $base-grey;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+}

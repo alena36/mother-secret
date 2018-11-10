@@ -1,0 +1,37 @@
+.slider-testimonials {
+
+  .slider-dots {
+    top: 100%;
+  }
+
+  &--right {
+    margin-left: 2rem;
+  }
+
+  &__text {
+    font-family: $font-family--Open-sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-family: $font-family--Open-sans;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+      font-family: $font-family--Open-sans;
+      font-size: 12px;
+      font-weight: 400;
+      text-decoration: none;
+      color: $base-white;
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+}

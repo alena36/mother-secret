@@ -1,0 +1,28 @@
+.order {
+  margin-bottom: 7rem;
+
+  &__link-wrapper {
+    text-align: center;
+  }
+
+  &__link {
+    font-family: $font-family--Oswald;
+    font-size: 54px;
+    color: $base-white;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    background-color: $base-red;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    }
+
+    &:focus {
+      outline: none;
+      color: $base-black;
+    }
+  }
+}

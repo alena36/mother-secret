@@ -1,0 +1,23 @@
+.contacts {
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #bd4141;
+    font-size: 12px;
+    transform: scale(-1, 1);
+  }
+
+  &__number {
+    display: inline-block;
+    font-family: $font-family--Oswald;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 1rem 2.33rem;
+    background-color: $base-red;
+    margin: 0;
+  }
+}

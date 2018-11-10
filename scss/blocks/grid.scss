@@ -1,0 +1,19 @@
+.grid {
+  margin: 0 auto;
+
+  &__link {
+    font-size: 0;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:focus {
+      outline: 3px solid $base-red;
+    }
+  }
+
+  &__item {
+    margin-bottom: 1.67rem;
+  }
+}

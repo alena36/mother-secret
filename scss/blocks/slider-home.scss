@@ -7,9 +7,8 @@
     transform: translate(-50%, -50%);
 
     @media only screen and (max-width : 1228px) {
-      padding-left: 10%;
+      padding-left: 12%;
     }
-
   }
 
   .slider__img {
@@ -19,7 +18,7 @@
   //&__text {
   //  display: inline-block;
   //  font-family: $font-family--Oswald;
-  //  font-size: 12px;
+  //  font-size: 1rem;
   //  font-weight: 400;
   //  line-height: 24px;
   //  padding: 1rem;
@@ -36,19 +35,19 @@
   &__title {
     display: block;
     font-family: $font-family--Oswald;
-    font-size: 30px;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 2.5rem;
     padding: 1.83rem;
     background-color: $base-black;
     margin: 0;
     opacity: 0.8;
     //margin-bottom: 2px;
-    max-width: 30%;
+    max-width: 35%;
 
     @media only screen and (max-width : 1024px) {
-      font-size: 28px;
-      line-height: 28px;
+      font-size: 2.33rem;
+      line-height: 2.33rem;
       padding: 1.3rem;
     }
 
@@ -60,7 +59,7 @@
   //&__subtitle {
   //  display: inline-block;
   //  font-family: $font-family--Oswald;
-  //  font-size: 18px;
+  //  font-size: 1.5rem;
   //  font-weight: 400;
   //  line-height: 24px;
   //  padding: 1rem;

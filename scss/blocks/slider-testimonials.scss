@@ -10,7 +10,7 @@
 
   &__text {
     font-family: $font-family--Open-sans;
-    font-size: 14px;
+    font-size: 1.16rem;
     font-weight: 400;
     text-align: left;
     margin-bottom: 3rem;
@@ -18,20 +18,36 @@
 
   &__title {
     font-family: $font-family--Open-sans;
-    font-size: 16px;
+    font-size: 1.33rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
 
   &__subtitle {
       font-family: $font-family--Open-sans;
-      font-size: 12px;
+      font-size: 1rem;
       font-weight: 400;
       text-decoration: none;
       color: $base-white;
   }
 }
 
-.slick-dots li button:before {
-  font-size: 12px;
+.slick-dots {
+  margin-bottom: 5px;
+
+  li button:before {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 592px) {
+  .slider-testimonials .slider__item{
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .slider-testimonials__image{
+    margin: 10px auto;
+  }
 }

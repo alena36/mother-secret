@@ -7,9 +7,9 @@
 
   &__name {
     font-family: $font-family--Oswald;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.75rem;
     text-transform: uppercase;
     color: #656565;
     background-color: transparent;
@@ -17,6 +17,10 @@
     border: 2px solid #515151;
     margin-left: 3.25rem;
     width: 32%;
+
+    @media screen and (max-width: 568px) {
+      margin-left: 0;
+    }
 
     &--message {
       width: 61.5%;
@@ -40,15 +44,24 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.33rem;
+
+    @media screen and (max-width: 568px) {
+      flex-direction: column;
+
+      input {
+        width: 95%;
+        margin-bottom: 10px;
+      }
+    }
   }
 
   &__button {
     position: relative;
     width: 100%;
     font-family: $font-family--Oswald;
-    font-size: 14px;
+    font-size: 1.16rem;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 1.75rem;
     text-transform: uppercase;
     color: $white;
     background-color: $base-red;
@@ -82,9 +95,22 @@
   &__message {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 568px) {
+      flex-direction: column;
+
+      textarea {
+        width: 95%;
+        margin-bottom: 10px;
+      }
+    }
   }
 
   &__wrapper-btn {
     width: 30%;
+
+    @media screen and (max-width: 568px) {
+      width: 100%;
+    }
   }
 }

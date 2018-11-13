@@ -1,0 +1,23 @@
+.name {
+  background: url("../img/name-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 4rem;
+    margin: 0 auto;
+    line-height: 4.5rem;
+    text-align: center;
+    color: $base-red;
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-left: 20rem;
+  }
+
+    //@media screen and (max-width: 652px) {
+    //  line-height: 5.2rem;
+    //}
+}

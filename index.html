@@ -29,8 +29,8 @@
                     </a>
                 </li>
                 <li class="main-navigation__item">
-                    <a href="#team" id="team-link" class="main-navigation__link">
-                        Содержание
+                    <a href="#idea" id="idea-link" class="main-navigation__link">
+                        Идея
                     </a>
                 </li>
                 <li class="main-navigation__item">
@@ -58,11 +58,17 @@
     </div>
 </header>
 <main>
+    <section class="name">
+        <div class="container">
+            <h1 class="name__title">
+                Челлендж<br>
+                для сознательных родителей <br>
+                "30 секретов счастливого детства"
+            </h1>
+        </div>
+    </section>
     <section class="idea section" id="idea">
         <div class="container">
-            <h2 class="idea__title">
-                Игра "30 секретов счастливого детства"
-            </h2>
             <div class="idea__text-wrapper">
                 <div>
                     <p class="idea__text">
@@ -156,7 +162,7 @@
     <section class="order section" id="order">
         <div class="container">
             <p class="order__link-wrapper">
-                <a href="#" class="order__link">
+                <a href="#" class="order__link order-btn">
                     Хочу узнать секреты
                 </a>
             </p>
@@ -180,40 +186,24 @@
                     <h5 class="features-list__title">
                         Совместное творчество
                     </h5>
-                    <!--<p class="features-list__text">-->
-                        <!--Здесь будет краткое описание наших творческих заданий-->
-                        <!--и для чего они нужны.-->
-                    <!--</p>-->
                 </li>
                 <li class="features-list__item">
                     <i class="fas fa-handshake features-list__icon"></i><br>
                     <h5 class="features-list__title">
                         Социальная активность
                     </h5>
-                    <!--<p class="features-list__text">-->
-                        <!--Здесь будет краткое описание наших социальных заданий-->
-                        <!--и для чего они нужны.-->
-                    <!--</p>-->
                 </li>
                 <li class="features-list__item">
                     <i class="fas fa-users features-list__icon"></i><br>
                     <h5 class="features-list__title">
                         Семейные ценности
                     </h5>
-                    <!--<p class="features-list__text">-->
-                        <!--Краткое описание важности семейных ценностей-->
-                        <!--и задания, связаные с поддержанием их.-->
-                    <!--</p>-->
                 </li>
                 <li class="features-list__item">
                     <i class="fas fa-heart features-list__icon"></i><br>
                     <h5 class="features-list__title">
                         Безусловная любовь
                     </h5>
-                    <!--<p class="features-list__text">-->
-                        <!--Уверена, найдется пара понятных и душевных строк-->
-                        <!--на тему безусловной любви мамы к детям.-->
-                    <!--</p>-->
                 </li>
             </ul>
         </div>
@@ -450,12 +440,29 @@
         </div>
     </div>
 </footer>
+<div class="popup visually-hidden">
+    <div class="popup__content">
+        <p class="popup__text">
+            Для заказа оставьте, пожалуйства, свои контактные данные.<br>
+            Наш менеджер свяжется с Вами для уточнения всех деталей.
+        </p>
+        <form action="post" class="form-popup">
+            <input type="text" name="name" placeholder="Ваше имя" class="form-popup__name" minlength="3" maxlength="25" required>
+            <input type="tel" name="phone" placeholder="Номер телефона" class="form-popup__phone" minlength="10" maxlength="15" required>
+            <button type="submit" class="form-popup__button">
+                Отправить данные
+            </button>
+        </form>
+        <button class="form-popup__button-close btn-close"></button>
+    </div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/accordion.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/popup.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

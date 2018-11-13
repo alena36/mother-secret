@@ -23,7 +23,6 @@
   &__item:first-child .main-navigation__link {
       background-color: $base-red;
       border: 1px solid $base-red;
-      border-radius: 1rem;
 
     &:focus {
       outline: none;
@@ -42,7 +41,6 @@
 
     &:hover {
       background-color: $base-red;
-      border-radius: 1rem;
     }
 
     &:focus {

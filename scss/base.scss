@@ -90,26 +90,6 @@ body {
   padding-bottom: 5rem;
 }
 
-//.section-title-black::after {
-//  position: absolute;
-//  content: "";
-//  width: 45px;
-//  background-color: $base-black;
-//  height: 1px;
-//  top: 45%;
-//  left: 48%;
-//}
-//
-//.section-title-white::after {
-//  position: absolute;
-//  content: "";
-//  width: 45px;
-//  background-color: $white;
-//  height: 1px;
-//  top: 45%;
-//  left: 48%;
-//}
-
 .section-subtitle {
   font-family: $font-family--Open-sans;
   font-size: 1rem;
@@ -142,23 +122,8 @@ body {
   max-width: 1170px;
 }
 
-.pricing {
-  background-color: $base-red;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-}
-
 .footer {
   background-color: $base-black;
   padding-bottom: 3rem;
   margin-bottom: 0;
-}
-
-.gallery-text {
-  font-family: $font-family--Open-sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.75rem;
-  color: $base-red;
-  text-align: center;
 }

@@ -13,9 +13,10 @@ gulp.task('compress', function() {
 gulp.task('sass', function () {
     return gulp.src('./scss/style.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('default', function () {
     gulp.watch('./scss/**/*.scss', ['sass']);
+    gulp.watch('./js/**/*.js', ['compress']);
 });

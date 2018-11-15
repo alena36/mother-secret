@@ -8,5 +8,4 @@
         horizontalOrder: true,
         fitWidth: true
     });
-
 })();

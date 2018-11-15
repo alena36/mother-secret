@@ -60,9 +60,11 @@ body {
   text-decoration: none;
   text-align: center;
   color: $base-white;
+  transition: background-color 200ms ease-out;
 
   &:hover {
     opacity: 0.6;
+    transition: background-color 200ms ease-out;
   }
 
   &:focus {
@@ -91,17 +93,15 @@ body {
 }
 
 .section-subtitle {
-  font-family: $font-family--Open-sans;
-  font-size: 1rem;
+  font-family: $font-family--Oswald;
+  font-size: 1.3rem;
   font-weight: 400;
-  line-height: 1.75rem;
-  color: #9b9b9b;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  color: $base-black;
   text-align: center;
-  margin-right: auto;
-  width: 48%;
-  margin-top: 0;
-  margin-left: auto;
-  margin-bottom: 5.33rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 
   @media screen and (max-width: 692px) {
     width: 90%;

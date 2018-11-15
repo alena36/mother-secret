@@ -4,10 +4,38 @@
   padding-bottom: 3.33rem;
   background-color: $base-black;
 
+  @media only screen and (max-width : 768px) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   &__navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  &__hamburger {
+    display: none;
+
+    @media only screen and (max-width : 768px) {
+      display: block;
+      position: absolute;
+      right: 15px;
+      cursor: pointer;
+
+      &:hover,
+      &:active {
+        opacity: 0.5;
+      }
+
+      div {
+        width: 15px;
+        height: 2px;
+        background-color: white;
+        margin: 2px 0;
+      }
+    }
   }
 
   //&__contacts {

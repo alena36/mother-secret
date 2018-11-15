@@ -1,11 +1,10 @@
 (function(){
     'use strict';
 
-   var buttonOrder = document.querySelector('.order-btn');
-   var popup = document.querySelector('.popup');
-   var buttonClose = document.querySelector('.btn-close');
-   var formPopup = document.querySelector('.form-popup');
-
+    var buttonOrder = document.querySelector('.order-btn');
+    var popup = document.querySelector('.popup');
+    var buttonClose = document.querySelector('.btn-close');
+    var formPopup = document.querySelector('.form-popup');
 
     buttonOrder.addEventListener('click', function(){
         popup.classList.remove('visually-hidden');
@@ -31,6 +30,4 @@
     function sendForm() {
        alert('Ваши данные отправлены!');
     }
-
-
 })();

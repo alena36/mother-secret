@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title>Happy secrets</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -17,6 +18,11 @@
 <body>
 <header class="header" id="header">
     <div class="container">
+        <div class="header__hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <nav class="header__navigation">
             <a href="https://instagram.com" class="main-logo">
                 <i class="fab fa-instagram"></i>
@@ -59,6 +65,7 @@
 </header>
 <main>
     <section class="name">
+                <img src="./img/name-bg.jpg" alt="challenge" class="name__background">
         <div class="container">
             <h1 class="name__title">
                 Челлендж<br>
@@ -302,74 +309,76 @@
         </div>
     </section>
     <section class="testimonials" id="testimonials">
-        <h2 class="section-title section-title-black">
-            От создателей проекта
-        </h2>
-        <h4 class="section-subtitle">
-            Этот проект был создан девушками - мамами - дочками, которые больше всего на свете хотят подарить детям главное - счастье.
-            Чтобы оно навсегда стало образом жизни и давало вдохновение быть в моменте, быть собой и не стараться угодить всем, кроме себя.
-            Наша программа про любовь к себе, про отношения мам и детей, про счастье, про улыбки и маленькие радости.
-            Мы искренне надеемся, что каждая найдет отклик в этом и пожелает присоединиться.
-        </h4>
-        <div class="testimonials-wrapper">
-            <div class="slider slider-testimonials">
-                <div class="slider__item">
-                    <div class="slider-testimonials--left">
-                        <img src="img/myfoto1.jpg" alt="Alena" class="slider-testimonials__image">
-                    </div>
-                    <div class="slider-testimonials--right">
-                        <p class="slider-testimonials__text">
-                            Лучшее наследство, которое Вы можете оставить своим детям - это модель счастливой жизни.
-                            И об этом нужно заботиться с самого рождения. Используйте каждую возможность доставить радость себе
-                            и быть по-настоящему счастливым в глазах Вашего ребенка.<br>
-                            Я верю, что наш проект по-настоящему добрый и от всего сердца.
-                            Он подарит каждой маме ощущение близости со своими детьми, а детям - невидимую поддержку и одобрение родителей.
-                        </p>
-                        <h3 class="slider-testimonials__title">
-                            Алена Головина
-                        </h3>
-                        <a href="https://www.instagram.com/alena_holovina/" class="slider-testimonials__subtitle">
-                            <i class="fab fa-instagram"></i>
-                            Instagram - @alena_holovina
-                        </a>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <div class="slider-testimonials--left">
-                        <img src="img/marina.jpg" alt="Marina" class="slider-testimonials__image">
-                    </div>
-                    <div class="slider-testimonials--right">
-                        <p class="slider-testimonials__text">
-                            Текст 2
-                        </p>
-                        <h3 class="slider-testimonials__title">
-                            Марина Ткаченко
-                        </h3>
-                        <a href="https://www.instagram.com/maritkachenkoart/" class="slider-testimonials__subtitle">
-                            <i class="fab fa-instagram"></i>
-                            Instagram - @maritkachenkoart
-                        </a>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <div class="slider-testimonials--left">
-                        <img src="img/kristina.jpg" alt="Kristina" class="slider-testimonials__image">
-                    </div>
-                    <div class="slider-testimonials--right">
-                        <p class="slider-testimonials__text">
-                            Текст 1
-                        </p>
-                        <h3 class="slider-testimonials__title">
-                            Кристина Смирнова
-                        </h3>
-                        <a href="https://www.instagram.com/kristismirnovawed/" class="slider-testimonials__subtitle">
-                            <i class="fab fa-instagram"></i>
-                            Instagram - @kristismirnova_
-                        </a>
+        <div class="container">
+            <h2 class="section-title section-title-black">
+                От создателей проекта
+            </h2>
+            <h4 class="section-subtitle">
+                Этот проект был создан девушками - мамами - дочками, которые больше всего на свете хотят подарить детям главное - счастье.
+                Чтобы оно навсегда стало образом жизни и давало вдохновение быть в моменте, быть собой и не стараться угодить всем, кроме себя.
+                Наша программа про любовь к себе, про отношения мам и детей, про счастье, про улыбки и маленькие радости.
+                Мы искренне надеемся, что каждая найдет отклик в этом и пожелает присоединиться.
+            </h4>
+            <div class="testimonials-wrapper">
+                    <div class="slider slider-testimonials">
+                        <div class="slider__item">
+                            <div class="slider-testimonials--left">
+                                <img src="img/myfoto1.jpg" alt="Alena" class="slider-testimonials__image">
+                            </div>
+                            <div class="slider-testimonials--right">
+                                <p class="slider-testimonials__text">
+                                    Лучшее наследство, которое Вы можете оставить своим детям - это модель счастливой жизни.
+                                    И об этом нужно заботиться с самого рождения. Используйте каждую возможность доставить радость себе
+                                    и быть по-настоящему счастливым в глазах Вашего ребенка.<br>
+                                    Я верю, что наш проект по-настоящему добрый и от всего сердца.
+                                    Он подарит каждой маме ощущение близости со своими детьми, а детям - невидимую поддержку и одобрение родителей.
+                                </p>
+                                <h3 class="slider-testimonials__title">
+                                    Алена Головина
+                                </h3>
+                                <a href="https://www.instagram.com/alena_holovina/" class="slider-testimonials__subtitle">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram - @alena_holovina
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider-testimonials--left">
+                                <img src="img/marina.jpg" alt="Marina" class="slider-testimonials__image">
+                            </div>
+                            <div class="slider-testimonials--right">
+                                <p class="slider-testimonials__text">
+                                    Текст 2
+                                </p>
+                                <h3 class="slider-testimonials__title">
+                                    Марина Ткаченко
+                                </h3>
+                                <a href="https://www.instagram.com/maritkachenkoart/" class="slider-testimonials__subtitle">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram - @maritkachenkoart
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider-testimonials--left">
+                                <img src="img/kristina.jpg" alt="Kristina" class="slider-testimonials__image">
+                            </div>
+                            <div class="slider-testimonials--right">
+                                <p class="slider-testimonials__text">
+                                    Текст 1
+                                </p>
+                                <h3 class="slider-testimonials__title">
+                                    Кристина Смирнова
+                                </h3>
+                                <a href="https://www.instagram.com/kristismirnovawed/" class="slider-testimonials__subtitle">
+                                    <i class="fab fa-instagram"></i>
+                                    Instagram - @kristismirnova_
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 </main>
 <footer class="footer section" id="contact">
@@ -446,6 +455,7 @@
 <script src="js/accordion.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/popup.js"></script>
-<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

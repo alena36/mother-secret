@@ -9,6 +9,7 @@
     color: $base-red;
     width: 100%;
     margin-bottom: 3rem;
+
     @media screen and (max-width: 652px) {
       line-height: 5.2rem;
     }
@@ -36,7 +37,7 @@
     justify-content: space-between;
     align-items: center;
 
-    @media screen and (max-width: 652px) {
+    @media (max-width: 650px) {
       flex-direction: column;
     }
   }

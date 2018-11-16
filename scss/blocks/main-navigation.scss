@@ -31,19 +31,9 @@
     }
   }
 
-  //&__item:first-child .main-navigation__link {
-  //    background-color: $base-red;
-  //    border: 1px solid $base-red;
-  //
-  //  &:focus {
-  //    outline: none;
-  //    color: $base-black;
-  //  }
-  //}
-
   &__link {
     font-family: $font-family--Oswald;
-    font-size: 1.16rem;
+    font-size: 1.5rem;
     font-weight: 400;
     display: block;
     padding: 1rem 1.25rem;
